@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(101, 255, 135);
+    color: black;
+    
+}
+.n1{
+    background-color: rgb(39, 39, 39);
+    height: 18vh;
+    width: 83.3em;
+}
+.menu {
+    display: flex;
+    width: 83.3em;
+    height: 9vh;
+    background-color: rgb(111, 185, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.menu .m3 ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+    display: inline;
+
+    /*border: 1px solid black;*/
+}
+.menu .m3{
+    position: relative;
+    top: 5px;
+    left: 300px;
+    display: flex;
+}
+/* les styles de l'image */
+.m2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    position: relative;
+    margin-left: 200px;
+
+}
+.m1 h1{
+    font-size: 25px;
+}
+.m2{
+    position: relative;
+
+}
+
+.intro img{
+    height: 180px;
+    width: 160px;
+    border-radius: 50px;
+}
+.intro{
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-right: 280px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.pied{
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+
+    
+}
+.pied .p {
+   display: inline;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15px;
+   color: white;
+   flex-wrap: wrap;
+   margin-right: 18px;
+   margin-left: 15px;
+}
